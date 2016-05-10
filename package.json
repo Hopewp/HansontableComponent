@@ -1,0 +1,9 @@
+{
+  "name":"HansontableComponent",
+  "version":"0.0.1",
+  "description":"hansontable的react组件",
+  "main":"./index.js",
+  "dependencies":{
+
+  }
+}
