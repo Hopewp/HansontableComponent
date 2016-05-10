@@ -42,8 +42,8 @@ var HansontableComponent = React.createClass({
     });
   },
   render: function () {
-    var {id, ...others}=this.props;
-    return (<div id={id}></div>);
+    var id = this.props.id;
+    return React.createElement("div", {id: id});
   }
 });
 
